@@ -52,6 +52,7 @@ namespace RaonX_SJPark
         /// <param name="cities"></param>
         public static void Solution_01(int cacheSize, string[] cities)
         {
+            Console.WriteLine($"cacheSize: {cacheSize}\n cities: {cities}");
             List<string> cache = new List<string>();
             int answer = 0;
 
@@ -107,6 +108,8 @@ namespace RaonX_SJPark
         /// <param name="s"></param>
         public static void Solution_02(string s)
         {
+            Console.WriteLine($"s: {s}");
+
             string[] strArr = s.Split(' ');
 
             if(strArr.Length < 2 ) 
@@ -130,6 +133,8 @@ namespace RaonX_SJPark
         /// <param name="k"></param>
         public static void Solution_03(string number, int k)
         {
+            Console.WriteLine($"number: {number}\n k: {k}");
+
             List<char> charList = new List<char>();
             int removeCnt = k;
 
